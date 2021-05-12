@@ -1,0 +1,96 @@
+body {
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Gopher Fonts */
+  .gopher-regular {
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gopher-italic {
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .gopher-bold {
+    font-family: gopher, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .gopher-bold-italic {
+    font-family: gopher, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .gopher-black-italic {
+    font-family: gopher, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .gopher-heavy-italic {
+    font-family: gopher, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  } 
+
+  .attention-container {
+      height: auto;
+      width: 100vw;
+      min-width: 1200px;
+      min-height: 900px;
+      
+  }
+
+  .attention-col {
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+  }
+
+  .navbar-container {
+      width: 100vw;
+      min-width: 1000px;
+  }
+
+  .content-container {
+      height: auto;
+      width: 100vw;
+      min-width: 1200px;
+  }
+
+  .highlight {
+  position: relative;
+}
+
+.highlight:before, 
+.highlight:after {
+  content: " ";
+  display: block;
+  height: 110%;
+  width: 110%;
+  margin-left: -5%;
+  margin-right: -5%;
+  position: absolute;
+  transform: skew(-15deg);
+}
+.highlight:before {
+  background: rgba(252, 130, 29, 1);
+  z-index:-100;
+}
+ .highlight {
+  color: #FFF;
+  z-index: 1;
+}
+
+
+  
